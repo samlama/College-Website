@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<nav>
+    <img src="img1.jpg" alt="">
+    <div class="navigation">
+        <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="blog.html">Blog</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <img id="menu-btn" src="images/nav.jpg">
+    </div>
+</nav>
+<section id="about-home">
+    <h2>Blog site</h2>
+
+</section>
+<section id="blog-container">
+    <div class="blogs">
+         <div class="post">
+           <img src="images/blog1.jpg">
+            <h3>Learn Web Development In The Easiest Way</h3>
+            <p>Firstly , I would like to tell you that web development is not all covered in CS classes , as the CS syllabus only contains just the basic of HTML , CSS and JavaScript. So , even if you intend to take your CS classes you would be learning just the theory and thats’ not web development at all .
+
+                Web development rather invloves building of websites in a way that developers can -
+                Program a browser (like using JavaScript, jQuery, Angular, or Vue)
+                Program a server (like using PHP, ASP, Python, or Node)
+                Program a database (like using SQL, SQLite, or MongoDB)
+                Now ,
+                </p>
+                <a href="post.html">Read More</a>
+        </div>
+        <div class="post">
+            <img src="images/cyb.jpg">
+             <h3>Learn About Cyber Security</h3>
+             <p>Welcome to this introductory course in Cyber security.
+                <br>
+                This course serves as an excellent primer to the many different domains of Cyber security.
+                Cyber security is the application of processes and controls to technology with the aim of protecting systems, networks, software, hardware, programmes, devices and data from cyber-attacks. 
+                It helps to save from unnecessary authorized acess systems. Cyber security becomes world wide Popular.
+                Many unauthorised person try to acess files data etc. Nowadays this cyber security has huge offers and have many placement in big Organization.
+             </p>
+                 <a href="pos.html">Read More</a>
+         </div>
+         <div class="post">
+            <img src="images/cyb2.jpg">
+             <h3>APP Development and Alogrithims</h3>
+             <p>Our mobile development process spans six key phases:strategy, analysis & design, app development, testing, and deployment.
+                <br>
+                While, Algorithms are a set of instructions designed to solve problems. Algorithms act as an exact list of instructions that conduct specified actions step by step in either hardware- or software-based routines.
+                <br>
+                Algorithms are widely used throughout all areas of IT. In mathematics and computer science, an algorithm usually refers to a small procedure that solves a recurrent problem. 
+                </p>
+                 <a href="po.html">Read More</a>
+         </div>
+         <div class="post">
+            <img src="images/cyb3.jpg">
+             <h3>Python and Deep Learning </h3>
+             <p>Python is a general-purpose high level programming language that is widely used in data science and for producing deep learning algorithms.
+                <br>
+                Deep Learning is a part of machine learning that deals with algorithms inspired by the structure and function of the human brain. It uses artificial neural networks to build intelligent models and solve complex problems. We mostly use deep learning with unstructured data.
+                <br>
+                 </p>
+                 <a href="p.html">Read More</a>
+         </div>
+    </div>
+    <div class="cate">
+    <h2>Categories</h2>
+    <hr>
+    <a href="#">Web Development</a>
+    <hr>
+    <a href="#">Cyber Security</a>
+    <hr>
+    <a href="#">App Development</a>
+    <hr>
+    <a href="#">Frontend Web</a>
+    <hr>
+    <a href="#"Python Programming</a>
+    <hr>
+    <a href="#">JavaScript Hack</a>
+    <hr>
+    </div>
+</section>
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manage Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investment Relation</li>
+        <li>Terms of Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Manage Website</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Expert</li>
+        <li>Marketing Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. We only send promo offers</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 02021 All rights reserved | This template is made by technical Organization...</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        </footer>
+        <script>
+            $('#menu-btn').click(function(){
+                $("nav .navigation ul").addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $("nav .navigation ul").removeClass('active')
+            });
+        </script>
+</body>
+
+</html>
